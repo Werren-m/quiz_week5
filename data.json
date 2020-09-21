@@ -1,0 +1,17 @@
+[
+    {
+      "name": "Luffy",
+      "status": "Captain",
+      "haki": "Awakening"
+    },
+    {
+      "name": "Ace",
+      "status": "Nakama",
+      "haki": "Standard"
+    },
+    {
+      "name": "Sabo",
+      "status": "Nakama",
+      "haki": "Standard"
+    }
+  ]

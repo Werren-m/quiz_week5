@@ -1,0 +1,17 @@
+[
+    {
+      "name": "Black Pearl",
+      "type": "Galleon",
+      "power": 50
+    },
+    {
+      "name": "Merry",
+      "type": "Caravel",
+      "power": 25
+    },
+    {
+      "name": "Clown",
+      "type": "Caravel",
+      "power": 17
+    }
+  ]

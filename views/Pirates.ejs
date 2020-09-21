@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirates</title>
+</head>
+<body>
+    <h1>Pirates Data</h1>
+    <a href="../">Go Back</a> <br> <br>
+    <a href="/pirates/add">Add PIRATES!!</a> <br><br>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Status</th>
+            <th>Haki</th>
+            <th>Action</th>
+        </tr>
+        <% Pirates.forEach(data => { %>
+        <tr>    
+            <td><%= data.name %></td>
+            <td><%= data.status %></td>
+            <td><%= data.haki %></td>
+            <td><form action="/pirates/delete:<%= data.id %>"><input type="submit" value="Delete"> </form></td>
+        </tr>
+        <% }) %>
+        
+    </table>
+</body>
+</html>
